@@ -9,4 +9,5 @@ langsmith
 python-dotenv
 langchainhub
 bs4
+faiss-cpu
 pypdf
