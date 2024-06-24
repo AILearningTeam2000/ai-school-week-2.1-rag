@@ -15,7 +15,7 @@ os.environ["LANGCHAIN_PROJECT"] = os.getenv("LANGCHAIN_PROJECT")
 PINECONE_INDEX = os.getenv("PINECONE_INDEX")
 
 # Prep documents to be uploaded to the vector database (Pinecone)
-loader = DirectoryLoader('./docs', glob="**/*.pdf", loader_cls=PyPDFLoader)
+loader = DirectoryLoader('./simple_rag_example/docs', glob="**/*.pdf", loader_cls=PyPDFLoader)
 raw_docs = loader.load()
 
 # Split documents into smaller chunks
