@@ -1,12 +1,12 @@
 openai
 langchain
 langchain_openai
-langchain_chroma
+langchain_pinecone
 langchain_experimental
 langchain_core
 langchain_community
 langsmith
-langfuse
 python-dotenv
 langchainhub
 bs4
+pypdf
